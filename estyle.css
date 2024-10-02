@@ -1,0 +1,71 @@
+*
+{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body
+{
+    width:100%;
+    height:auto;
+}
+
+header
+{
+    width:100%;
+    height:auto;
+    padding:2px 0px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background: linear-gradient(
+        90deg,
+        rgb(0, 0, 0) 0%,
+        rgb(51, 37, 51) 10%,
+        rgb(77, 45, 77) 30%,
+        rgb(100, 42, 100) 50%,
+        rgb(77, 45, 77) 70%,
+        rgb(51, 37, 51) 90%,
+        rgb(0, 0, 0) 100%
+    );
+}
+
+.logo
+{
+    cursor: pointer;
+}
+
+.ButtonsHeader
+{
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.textHeader
+{
+    color: white;
+}
+
+.item
+{
+    margin: 5px;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+p
+{
+    margin: 10px;
+    width: 850px;
+}
+
+.Paginainicial
+{
+    justify-content: center;
+    align-items: center;
+}
