@@ -10,6 +10,11 @@ html, body
 {
     width:100%;
     height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
 }
 
 header
@@ -53,19 +58,70 @@ header
 {
     margin: 5px;
     cursor: pointer;
-    padding: 5px;
+    padding: 10px;
+    margin: 10px;
     border: 1px solid black;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 p
 {
     margin: 10px;
-    width: 850px;
+    text-align: center;
 }
 
-.Paginainicial
+.PrimeiroJogo
+{
+   background-color: rgb(212, 212, 212);
+   width: 75%;
+}
+
+.ImgJogo
 {
     justify-content: center;
-    align-items: center;
+    display: flex;
+    height: 350px;
+}
+
+#Freddy
+{
+    height: 150px;
+    display: flex;
+    margin: 7px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#Chica
+{
+    height: 150px;
+    display: flex;
+    margin: 7px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#Bonnie
+{
+    height: 150px;
+    display: flex;
+    margin: 7px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.PsgPrimeiroJg
+{
+    display: flex;
+    justify-content: row;
+    margin-left: 50px;
 }
