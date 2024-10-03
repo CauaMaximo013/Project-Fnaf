@@ -6,6 +6,51 @@
     box-sizing: border-box;
 }
 
+html, body
+{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    color: aliceblue;
+   background-color: rgb(15, 1, 31);
+}
+
+/*Funções Gerais*/
+
+p
+{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    text-align: start;
+}
+
+h1
+{
+    padding: 10px;
+    margin-top: 15px;
+}
+
+#PersonagemStyle
+{
+    height: 150px;
+    display: flex;
+    margin: 7px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+
+
+/*Cabeçalho*/
+
 header
 {
     width:100%;
@@ -25,19 +70,6 @@ header
         rgb(0, 0, 0) 100%
     );
 }
-
-html, body
-{
-    width:100%;
-    height:auto;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
-    text-align: center;
-    color: aliceblue;
-}
-
 
 .logo
 {
@@ -66,74 +98,51 @@ html, body
     border-radius: 15px;
 }
 
-p
-{
-    margin: 10px;
-    text-align: center;
-}
+/*Primeiro Jogo*/
 
 .PrimeiroJogo
 {
    background-color: rgb(15, 1, 31);
    width: 75%;
+   border-bottom: 2px solid rgb(255, 255, 255);
 }
 
-.ImgJogo
+.ImgJogo1
 {
     justify-content: center;
     display: flex;
     height: 350px;
 }
 
-#Freddy
-{
-    height: 150px;
-    display: flex;
-    margin: 7px;
-    background-color: red;
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid black;
-    cursor: pointer;
-}
-
-#Chica
-{
-    height: 150px;
-    display: flex;
-    margin: 7px;
-    background-color: red;
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid black;
-    cursor: pointer;
-}
-
-#Bonnie
-{
-    height: 150px;
-    display: flex;
-    margin: 7px;
-    background-color: red;
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid black;
-    cursor: pointer;
-}
-
-#Fox
-{
-    height: 150px;
-    display: flex;
-    margin: 7px;
-    background-color: red;
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid black;
-    cursor: pointer;
-}
-
 .PsgPrimeiroJg
+{
+    display: flex;
+    justify-content: row;
+    margin-left: 50px;
+    margin: 20px;
+    border-bottom: 8px solid red;
+    border-top: 8px solid red;
+    background-image:url(https://img.freepik.com/premium-vector/black-white-finish-line-checkered-flag-vector-icon-chess-pattern_790651-287.jpg);
+    background-size: contain;
+}
+
+/*Segundo Jogo*/
+
+.ImgJogo2
+{
+    justify-content: center;
+    display: flex;
+    height: 300px;
+}
+
+.SegundoJogo
+{
+   background-color: rgb(15, 1, 31);
+   width: 75%;
+   border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.PsgSegundoJg
 {
     display: flex;
     justify-content: row;
