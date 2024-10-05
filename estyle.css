@@ -40,7 +40,7 @@ h1
     height: 150px;
     display: flex;
     margin: 7px;
-    background-color: red;
+    background-color: rgb(85, 9, 9);
     padding: 10px;
     border-radius: 10px;
     border: 2px solid black;
@@ -152,4 +152,32 @@ header
     border-top: 8px solid red;
     background-image:url(https://img.freepik.com/premium-vector/black-white-finish-line-checkered-flag-vector-icon-chess-pattern_790651-287.jpg);
     background-size: contain;
+}
+
+/*Terceiro Jogo*/
+
+.ImgJogo3
+{
+    justify-content: center;
+    display: flex;
+    height: 300px;
+}
+
+.TerceiroJogo
+{
+   background-color: rgb(15, 1, 31);
+   width: 75%;
+   border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.PsgTerceiroJg
+{
+    display: flex;
+    justify-content: row;
+    margin-left: 50px;
+    margin: 20px;
+    border-bottom: 8px solid red;
+    border-top: 8px solid red;
+    background-image:url(https://img.freepik.com/premium-vector/black-white-finish-line-checkered-flag-vector-icon-chess-pattern_790651-287.jpg);
+    background-size: contain;   
 }
