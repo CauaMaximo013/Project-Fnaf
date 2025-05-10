@@ -1,0 +1,43 @@
+git config --global user.name CauaMaximo013
+git config --global user.email maximocaua13@gmail.com
+
+fnaf 1
+title: "Five Nights at Freddy's (FNaF 1)",
+        cover: "img/Fnaf1/CapaFnaf1.png",
+        description: "Você é um guarda noturno na pizzaria Freddy Fazbear's, onde os animatrônicos ganham vida à noite e tentam matá-lo.",
+        characters: [
+          { name: "Freddy Fazbear", img: "img/Fnaf1/Freddy.webp" },
+          { name: "Bonnie", img: "img/Fnaf1/bonnie.png" },
+          { name: "Chica", img: "img/Fnaf1/Chica.png" },
+          { name: "Foxy", img: "img/Fnaf1/Foxy.png" },
+          { name: "Golden Freddy", img: "img/Fnaf1/Golden-Freddy.png" }
+
+fnaf 2
+
+title: "Five Nights at Freddy's 2 (FNaF 2)",
+        cover: "img/Fnaf2/CapaFnaf2.png",
+        description: "Na sequência, o jogador encara uma nova pizzaria com ainda mais animatrônicos, incluindo versões Toy e os velhos modelos danificados.",
+        characters: [
+            { name: "Toy Freddy", img: "img/Fnaf2/ToyFreddy.png" },
+            { name: "Toy Bonnie", img: "img/Fnaf2/ToyBonnie.png" },
+            { name: "Toy Chica", img: "img/Fnaf2/ToyChica.png" },
+            { name: "Mangle", img: "img/Fnaf2/mangle.png" },
+            { name: "Balloon Boy", img: "img/Fnaf2/balloonBoy.png" },
+            { name: "The Puppet", img: "img/Fnaf2/puppet.png" },
+            { name: "Withered Freddy", img: "imagens/withered-freddy.png" },
+            { name: "Withered Bonnie", img: "imagens/withered-bonnie.png" },
+            { name: "Withered Chica", img: "imagens/withered-chica.png" },
+            { name: "Withered Foxy", img: "imagens/withered-foxy.png" }
+
+fnaf 3
+
+title: "Five Nights at Freddy's 3 (FNaF 3)",
+        cover: "img/Fnaf3/CapaJogo3.jpg",
+        description: "Neste jogo, a atração de terror 'Fazbear's Fright' revive o passado macabro da pizzaria. O único animatrônico real é Springtrap, mas alucinações constantes dificultam sua sobrevivência.",
+        characters: [
+            { name: "Springtrap", img: "imagens/springtrap.png" },
+            { name: "Phantom Freddy", img: "imagens/phantom-freddy.png" },
+            { name: "Phantom Chica", img: "imagens/phantom-chica.png" },
+            { name: "Phantom Foxy", img: "imagens/phantom-foxy.png" },
+            { name: "Phantom Balloon Boy", img: "imagens/phantom-balloon-boy.png" },
+            { name: "Phantom Puppet", img: "imagens/phantom-puppet.png" }
